@@ -5,7 +5,7 @@
 [![Visualization](https://img.shields.io/badge/UI%20Layer-Leaflet%20%7C%20Chart.js-brightgreen?style=for-the-badge)](https://leafletjs.com/)
 
 ## 🎯 Tổng Quan Dự Án
-Dự án này là bộ **Sa bàn Mô phỏng và Tối ưu hóa Vận hành Trạm Sạc Xe Điện** dành cho đội xe quy mô lớn (Mega-Fleet với hơn 1.500 xe). Hệ thống giải quyết bài toán kinh tế cốt lõi trước khi xuống tiền đầu tư CapEx: **Tìm điểm cân bằng tối ưu giữa Chi phí cơ sở hạ tầng (Đất, Trụ súng, Trạm biến áp) và Chi phí hao tổn vận hành đội xe (Km chạy rỗng, Thời gian tài xế chờ sạc)**.
+Dự án này là bộ **Sa bàn Mô phỏng và Tối ưu hóa Vận hành Trạm Sạc Xe Điện** dành cho đội xe quy mô lớn. Hệ thống giải quyết bài toán kinh tế cốt lõi trước khi xuống tiền đầu tư CapEx: **Tìm điểm cân bằng tối ưu giữa Chi phí cơ sở hạ tầng (Đất, Trụ súng, Trạm biến áp) và Chi phí hao tổn vận hành đội xe (Km chạy rỗng, Thời gian tài xế chờ sạc)**.
 
 Dự án được đóng gói dưới dạng **Kiến trúc Độc lập Không phụ thuộc (Zero-Dependency Standalone Architecture)**. Toàn bộ luồng tính toán tài chính, xoay trục kịch bản và hiển thị bản đồ không gian diễn ra trực tiếp trên trình duyệt của người dùng mà không cần cấu hình server phức tạp.
 
