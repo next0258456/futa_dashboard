@@ -24,7 +24,7 @@ Do quy mô của luồng dữ liệu mô phỏng kịch bản vận hành và ma
 Không sử dụng các framework nặng nề hay hệ thống cơ sở dữ liệu cồng kềnh, sa bàn tập trung vào hiệu năng thực thi cốt lõi thông qua:
 * **Geospatial Discretization (Uber H3 Index):** Số hóa toàn bộ bản đồ khu vực vận hành thành các ô lưới lục giác Uber H3. Biến các phép toán truy vấn khoảng cách tọa độ liên tục thành các khóa lookup index có tốc độ phản hồi tính bằng mili-giây.
 * **Dynamic Client-Side Financial Engine:** Toàn bộ công thức dự toán dòng tiền, khấu hao hạ tầng, chi phí kéo điện theo khoảng cách Trạm biến áp (TBA) và thuật toán tính toán **IRR (Internal Rate of Return)** được xử lý bằng Vanilla JS thời gian thực dựa trên các tham số cấu hình linh hoạt của người dùng.
-* **High-Density Pre-computed Scenario Matrix:** Toàn bộ kết quả từ luồng mô phỏng ngẫu nhiên (Monte Carlo Simulation) đối với hành vi đội xe được tính toán trước và nén cấu trúc trực tiếp vào mã nguồn dưới dạng ma trận kịch bản đa mục tiêu.
+* **High-Density Scenario Simulation:** Toàn bộ kết quả từ hệ thống mô phỏng hành vi đội xe (Fleet Behavior Simulation) – từ bài toán tối ưu hóa lưu lượng sạc tại các điểm trạm đến việc giải quyết điểm gãy dòng tiền – đều được tính toán theo mô hình kịch bản có mục đích. Dữ liệu được nén cấu trúc trực tiếp vào mã nguồn dưới dạng ma trận kịch bản đa mục tiêu, đảm bảo tính xác thực cao nhất so với các mô hình mô phỏng ngẫu nhiên thuần túy.
 * **Visualization Layer:** Sử dụng **Leaflet.js** để render bản đồ không gian H3 chia lớp linh hoạt (`Đất`, `Điện`, `IRR Mua`, `IRR Thuê`, `Tối ưu Fleet`) kẹp cùng **Chart.js** để trực quan hóa xu hướng hội tụ của kịch bản vận hành.
 
 ---
