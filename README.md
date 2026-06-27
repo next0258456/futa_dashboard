@@ -2,7 +2,7 @@
 
 [![Data Storage](https://img.shields.io/badge/Raw%20Data-Google%20Drive-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/drive/folders/1M1btDPvGyFhwT5LloZWJZ3hw0ydVpQqi?usp=sharing)
 [![Spatial Index](https://img.shields.io/badge/Spatial%20Index-Uber%20H3-orange?style=for-the-badge)](https://h3geo.org/)
-[![Visualization](https://img.shields.io/badge/UI%20Layer-Leaflet%20%7C%20Chart.js-brightgreen?style=for-the-badge)](https://leafletjs.com/)
+[![Visualization](https://img.shields.io/badge/UI%20Layer-Perspective%20%7C%20Apache%20Arrow-brightgreen?style=for-the-badge)](https://perspective.finos.org/)
 
 ## 🎯 Tổng Quan Dự Án
 Dự án này là bộ **Sa bàn Mô phỏng và Tối ưu hóa Vận hành Trạm Sạc Xe Điện** dành cho đội xe quy mô lớn. Hệ thống giải quyết bài toán kinh tế cốt lõi trước khi xuống tiền đầu tư CapEx: **Tìm điểm cân bằng tối ưu giữa Chi phí cơ sở hạ tầng (Đất, Trụ súng, Trạm biến áp) và Chi phí hao tổn vận hành đội xe (Km chạy rỗng, Thời gian tài xế chờ sạc)**.
